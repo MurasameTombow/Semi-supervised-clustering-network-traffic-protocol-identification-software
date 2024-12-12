@@ -1,0 +1,2 @@
+# Semi-supervised-clustering-network-traffic-protocol-identification-software
+提取已标记和未标记网络流量统计特征，结合少量已知协议样本与流相关性构建约束信息，通过计算约束拉普拉斯分数实现特征选择，同时使用流标签传播算法扩充标记流量样本。通过K-means算法，对训练样本进行分类并依靠扩充后的标记流量样本计算后验概率完成对流量簇的识别，可以识别出从未出现或不在数据库中的协议类型。
