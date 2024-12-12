@@ -1,5 +1,17 @@
-.idea/
-.venv/
+# 忽略 Python 编译文件
 __pycache__/
 *.pyc
+
+# 忽略虚拟环境文件夹
+.venv/
+venv/
+
+# 忽略 PyCharm 的项目配置
+.idea/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
 *.log
